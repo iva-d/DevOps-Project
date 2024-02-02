@@ -2,13 +2,8 @@ name: Docker Build and Push to Docker Hub
 
 on:
   push:
-     branches: [ "main" ]
-     paths:
-      - 'aud_wp/**'
-  pull_request:
-    branches: [ "main" ]
-    paths:
-      - 'aud_wp/**'
+    branches:
+      - 'main'
 
 jobs:
   checkout:
